@@ -5,6 +5,14 @@
     A real-time chat interface combining Live2D characters with LLM and Japanese voice synthesis
 </p>
 
+<h2 align="left">Demo</h2>
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/ae944b45-46ae-4e89-9fd3-4a5de9ac360a" alt="Live2D Voice Chat Interface" width="500">
+</p>
+<p align="center">
+    <em>Interactive Live2D character with chat interface and voice synthesis</em>
+</p>
+
 <h2 align="left">Key Features</h2>
 <ul>
 <li>Real-time Live2D animation with lip-sync and facial expressions</li>
