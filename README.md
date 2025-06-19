@@ -6,31 +6,31 @@
 </p>
 
 <h2 align="left">Key Features</h2>
-- Real-time Live2D animation with lip-sync and facial expressions
-- AI-powered conversation using LLM-based response generation
-- Multi-language TTS support (Japanese and Korean)
-- Interactive web interface with real-time animated feedback
+- Real-time Live2D animation with lip-sync and facial expressions<br>
+- AI-powered conversation using LLM-based response generation<br>
+- Multi-language TTS support (Japanese and Korean)<br>
+- Interactive web interface with real-time animated feedback<br>
 - WebSocket-based real-time communication
 
 <h2 align="left">Technical Highlights</h2>
-- Live2D SDK integration for character animation
-- VOICEVOX TTS engine integration
-- Cross-language audio processing pipeline
+- Live2D SDK integration for character animation<br>
+- VOICEVOX TTS engine integration<br>
+- Cross-language audio processing pipeline<br>
 - Real-time WebSocket communication
 
 <h2 align="left">Tech Stack</h2>
-- **Backend**: FastAPI, Python 3.8+
-- **Frontend**: JavaScript, HTML/CSS
-- **AI/ML**: OpenAI API
-- **Voice Synthesis**: VOICEVOX
-- **Animation**: Live2D SDK
+- **Backend**: FastAPI, Python 3.8+<br>
+- **Frontend**: JavaScript, HTML/CSS<br>
+- **AI/ML**: OpenAI API<br>
+- **Voice Synthesis**: VOICEVOX<br>
+- **Animation**: Live2D SDK<br>
 - **Tools**: Poetry, Docker
 
 <h2 align="left">Requirements</h2>
-- Python 3.8+
-- Poetry
-- Docker
-- ffmpeg
+- Python 3.8+<br>
+- Poetry<br>
+- Docker<br>
+- ffmpeg<br>
 - OpenAI API key
 
 <h2 align="left">Installation & Setup</h2>
@@ -70,9 +70,9 @@
 4. Chat with your Live2D character and watch it respond with voice and animation!
 
 <h2 align="left">Customization</h2>
-- **Change Live2D model**: Modify `LIVE2D_MODEL_NAME` in `app/config/settings.py`
-- **Change character settings**: Modify `CHARACTER_PROMPT` in `app/config/prompts.py`  
-  (Note: Maintain `FIXED_CONSTRAINTS`)
+- **Change Live2D model**: Modify `LIVE2D_MODEL_NAME` in `app/config/settings.py`<br>
+- **Change character settings**: Modify `CHARACTER_PROMPT` in `app/config/prompts.py`<br>
+  (Note: Maintain `FIXED_CONSTRAINTS`)<br>
 - **Model directory structure**:
   ~~~
   app/models/live2d/[YOUR_MODEL_NAME]/
@@ -82,6 +82,6 @@
   ~~~
 
 <h2 align="left">Prerequisites</h2>
-- VOICEVOX must be running locally on port 50021
-- Live2D model files should be located in the `app/models/live2d/[YOUR_MODEL_NAME]/` directory
+- VOICEVOX must be running locally on port 50021<br>
+- Live2D model files should be located in the `app/models/live2d/[YOUR_MODEL_NAME]/` directory<br>
 - OpenAI API key is required for LLM functionality
