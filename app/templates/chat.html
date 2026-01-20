@@ -1,0 +1,38 @@
+
+<!-- app/templates/chat.html -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live2D Chat</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.1/dist/browser/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+</head>
+<body>
+    <main class="container">
+        <div id="character-container">
+            <canvas id="character"></canvas>
+            <div id="speech-bubble" role="alert"></div>
+        </div>
+
+        <div class="chat-container">
+            <div id="user-input-history"></div>
+            <form id="chat-form">
+                <div class="grid">
+                    <input type="text" id="input-box" placeholder="메시지를 입력하세요..." required>
+                    <button type="submit" id="send-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <audio id="audio" style="display: none;"></audio>
+
+    <script src="{{ url_for('static', path='/js/chat.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/live2d.js') }}"></script>
+</body>
+</html>
